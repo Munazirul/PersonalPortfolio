@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<records>
+    <place>
+    <name>Chennai</name>
+    <lat>12.29</lat>
+    <long>80.17</long>
+    <temperature>22</temperature>
+    <humidity>50</humidity>
+    </place>
+    <place>
+    <name>Bangalore</name>
+    <lat>19.01</lat>
+    <long>72.85</long>
+    <temperature>32</temperature>
+    <humidity>80</humidity>
+    </place>
+</records>

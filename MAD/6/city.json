@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Delhi",
+    "lat": 28.7041,
+    "long": 77.1025,
+    "temperature": "30",
+    "humidity": "50"
+  },
+  {
+    "name": "Kolkata",
+    "lat": 22.5726,
+    "long": 88.3639,
+    "temperature": "30",
+    "humidity": "50"
+  }
+]
