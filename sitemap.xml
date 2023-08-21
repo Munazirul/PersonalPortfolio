@@ -9,43 +9,68 @@
 
 <url>
   <loc>https://munazir.com/</loc>
-  <lastmod>2023-03-08T04:45:44+00:00</lastmod>
+  <lastmod>2023-08-21T16:24:20+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://munazir.com/l</loc>
-  <lastmod>2023-03-08T04:45:44+00:00</lastmod>
+  <lastmod>2023-08-21T16:24:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://munazir.com/g</loc>
-  <lastmod>2023-03-08T04:45:44+00:00</lastmod>
+  <lastmod>2023-08-21T16:24:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://munazir.com/i</loc>
-  <lastmod>2023-03-08T04:45:44+00:00</lastmod>
+  <lastmod>2023-08-21T16:24:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://munazir.com/t</loc>
-  <lastmod>2023-03-08T04:45:44+00:00</lastmod>
+  <lastmod>2023-08-21T16:24:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://munazir.com/resume</loc>
-  <lastmod>2023-03-08T04:45:44+00:00</lastmod>
+  <lastmod>2023-08-21T16:24:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://munazir.com/blog/100daysofhacking/</loc>
+  <lastmod>2023-08-21T16:24:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://munazir.com/blog/bitcoin_trap_uncovered</loc>
+  <lastmod>2023-08-21T16:24:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://munazir.com/blog/404</loc>
-  <lastmod>2023-03-08T04:45:44+00:00</lastmod>
+  <lastmod>2023-08-21T16:24:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://munazir.com/blog/</loc>
-  <lastmod>2023-03-08T04:45:44+00:00</lastmod>
+  <lastmod>2023-08-21T16:24:20+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://munazir.com/blog/100daysofhacking/day-1-portswigger-labs-sqli</loc>
+  <lastmod>2023-08-21T16:24:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://munazir.com/blog/100daysofhacking/day-2-portswigger-tryhackme</loc>
+  <lastmod>2023-08-21T16:24:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://munazir.com/blog/100daysofhacking/day-3-tryhackme-rooms-completed</loc>
+  <lastmod>2023-08-21T16:24:20+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
