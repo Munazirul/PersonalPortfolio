@@ -1,6 +1,6 @@
 function checkPassword() {
     var enteredPassword = document.getElementById("passwordInput").value;
-    var correctPassword = "veryeasychall👻"; // Replace with your actual password
+    var correctPassword = "veryeasychall?not"; // Replace with your actual password
 
     if (enteredPassword === correctPassword) {
         // Correct password, hide the pop-up
