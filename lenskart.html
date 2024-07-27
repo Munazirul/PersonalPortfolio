@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <meta http-equiv="refresh" content="0.1; url = https://www.linkedin.com/in/munazirul/" /> -->
+
+   <title>Lenskart Gold Membership - 1 Year</title>
+    <!-- Google tag (gtag.js) -->
+    
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="./assets/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Aos Libraray -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6326058861490447"
+     crossorigin="anonymous"></script>
+     <!-- <style>
+        /* Define a class for the image with a border */
+        .border-image {
+            border: 20px solid transparent; /* Start with a transparent border */
+            transition: border-color 0.3s ease; /* Add a transition for a smooth effect */
+        }
+
+        /* Define a keyframe animation */
+        @keyframes borderAnimation {
+            0% {
+    border-color: red;
+  }
+  25% {
+    border-color: blue;
+  }
+  50% {
+    border-color: green;
+  }
+  75% {
+    border-color: orange;
+  }
+  100% {
+    border-color: red;
+  }
+
+        }
+
+        /* Apply the animation when the image is hovered over */
+        .border-image:hover {
+            animation: borderAnimation 1s infinite alternate; /* Apply the animation */
+        }
+    </style> -->
+
+    <style>
+        @keyframes borderChange {
+            0% {
+                border-color: red;
+            }
+            25% {
+                border-color: blue;
+            }
+            50% {
+                border-color: green;
+            }
+            75% {
+                border-color: yellow;
+            }
+            100% {
+                border-color: red;
+            }
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            border: 60px solid red; /* Initial border color */
+            animation: borderChange 0.5s linear infinite;
+        }
+
+        .image-container {
+            display: inline-block;
+            animation: borderChange 0.5s linear infinite;
+            border: 50px solid red; /* Initial border color */
+        }
+
+        .image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, #FF5733, #33FF57, #5733FF, #FF33E7);
+            background-size: 400% 400%;
+            animation: backgroundAnimation 2s infinite;
+            z-index: 1000;
+        }
+
+        /* Styling for the pop-up content */
+        .popup-content {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        /* Styling for the close button */
+        .popup-close {
+            position: absolute;
+            top: 50px;
+            right: 10px;
+            cursor: pointer;
+            color: white;
+            font-size: 50px;
+        }
+
+        /* Animation for the background */
+        @keyframes backgroundAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Additional styles for content */
+        .popup-content h2 {
+            font-size: 36px;
+            color: white;
+        }
+
+        .popup-content p {
+            font-size: 24px;
+            color: white;
+            text-align: center;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+
+<div class="popup-overlay" id="popup">
+        <!-- The pop-up content -->
+        <div class="popup-content">
+            <span class="popup-close" id="popup-close" onclick="closePopup()">&times;</span>
+            <h2>Claimed by @Arya</h2>
+            <p>Congratulations!!</p>
+        </div>
+    </div>
+
+
+  <!-- Navbar -->
+    <nav class="navbar autohide navbar-expand-lg fixed-top p-3 mb-5" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://munazir.com/">SAMARSEC.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="menu_button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html#skill">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html#project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html#contact">Contact</a>
+            </li>
+            <hr class="nav-hr">
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+  <!-- Back to Top Button -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+        <section id="error">
+          <div class="container" data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0">
+            <div class="row">
+              <div class="col-lg-12">
+               
+                <div class="text-center">
+                    <div class="image-container">
+                        <img class="image" src="assets/img/voucher.png" width="300">
+                      </div>
+                </div>
+                
+
+                <!-- <h1 class="text-center text-danger">404 !</h1>
+                <h6 class="text-center text-danger">Page Not Found</h6> -->
+
+              </div>
+              <div class="text-center">
+                <br>
+                <br>
+                <p></p>
+                <!-- <p id="error-p">"You'll be redirected to Linkedin page."</p> -->
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <!-- End Blog - Second-Post -->
+
+      <!-- Footer -->
+      <section id="footer">
+        <hr class="hr-footer">
+        <div class="footer">
+          <div class="text-center">
+            <p id="hero-social-links">
+              <a href="https://munazir.com/l" target="_blank" title="linkedin_link"><i class="bi bi-linkedin"></i> <span id="right">Linkedin</span></a>
+              <a href="https://munazir.com/g" target="_blank" title="github_link"><i class="bi bi-github" title="github_link"></i> <span id="right">Github</span></a>
+              <a href="./blog.html" target="_blank" title="blog_link"><i class="bi bi-file-earmark-post"></i> <span id="right">Blog</span></a>
+            </p>
+          </div>
+          
+          <a href="https://munazir.com" rel="noopener noreferrer" target="_blank">
+            <div class="text-center"></div>
+            <div class="text-center">Munazir | &copy; 2023.</div>
+          </a>
+      </div>
+    </section>
+
+    <!-- End Footer -->
+
+    <!-- Preloader -->
+    <div id="Preloader">
+ 
+      <img src="/assets/img/preloader/New folder/New folder/Infinity-1s-200px.svg" alt="preloader">
+    </div>
+    
+    <!-- jqeuaray for preloader -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Boostrap Js -->
+    <script src="./assets/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Main Js -->
+    <script src="./assets/js/main.js"></script>
+
+    <!-- Aos Libraray -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Aos Intialize -->
+    <script>
+      AOS.init();
+      
+  // Function to show the pop-up
+  function showPopup() {
+      var popup = document.getElementById("popup");
+      popup.style.display = "block";
+  }
+
+  // Function to close the pop-up
+  function closePopup() {
+      var popup = document.getElementById("popup");
+      popup.style.display = "none";
+  }
+
+  // Show the pop-up when the page loads
+  window.onload = showPopup;
+
+    </script>
+
+  </body>
+</html>
